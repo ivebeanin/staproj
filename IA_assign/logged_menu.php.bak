@@ -1,0 +1,8 @@
+<?php 
+    if(isset($_SESSION["UID"])){
+        include 'logged_menu.php';
+    }
+    else {
+        include 'menu.php';
+    }
+    ?>
